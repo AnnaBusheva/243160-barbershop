@@ -3,8 +3,8 @@ body {
 	line-height: 24px;
 	color: #000000;
 	font-weight: normal;
-	font-family: Arial;
-	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+	/*text-transform: uppercase; ну да, в тз не было этого, но в ps режим "все прописные" */
 }
 
 h1 {
@@ -12,7 +12,7 @@ h1 {
 	line-height: 42px;
 	color: #000000;
 	font-weight: normal;
-	font-family: Arial; /* заменён нестандартный PTSans */
+	font-family: Arial, sans-serif; /* заменён нестандартный PTSans */
 }
 
 h2 {
@@ -20,7 +20,7 @@ h2 {
 	line-height: 30px;
 	color: #000000;
 	font-weight: normal;
-	font-family: Arial;
+	font-family: Arial, sans-serif;
 }
 
 /* а это просто чтобы логотип было видно :-) */
