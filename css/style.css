@@ -4,10 +4,11 @@ body {
 	color: #000000;
 	font-weight: normal;
 	font-family: Arial, sans-serif;
-	/*text-transform: uppercase; ну да, в тз не было этого, но в ps режим "все прописные" */
+	/*text-transform: uppercase;*/
 }
 
 h1 {
+	margin-bottom: 30px;
 	font-size: 30px;
 	line-height: 42px;
 	color: #000000;
@@ -23,8 +24,204 @@ h2 {
 	font-family: Arial, sans-serif;
 }
 
-/* а это просто чтобы логотип было видно :-) */
-.main-header img {
-	padding: 10px;
-	background-color: black;
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	
+	/* Подсветка */
+	background-color: #ccf;
+}
+
+.main-header {
+	margin-bottom: 60px;
+
+	/* Подсветка */
+	background-color: #99f;
+}
+
+.main-navigation {
+	float: left;
+	width: 760px;
+	padding-left: 20px;
+	font-size: 0;
+	
+	/* Подсветка */
+	background-color: #9cf;
+}
+
+.main-navigation li {
+	display: inline-block;
+	margin-right: 40px;
+	/*vertical-align: top; пока не придумала, как лучше выровнять ссылки и логотип */
+	font-size: 14px;
+	
+	/* Подсветка */
+	background-color: #cfc;
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+	
+	/* Подсветка */
+	background-color: #9cf;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.breadcrumbs {
+	margin-bottom: 60px;
+	font-size: 0;
+
+	/* Подсветка */
+	background-color: #9cf;
+}
+
+.breadcrumbs ul {
+	margin: 0;
+	padding: 0;
+}
+
+.breadcrumbs li {
+	display: inline-block;
+	margin-right: 40px;
+	font-size: 14px;
+
+	/* Подсветка */
+	background-color: #cfc;
+}
+
+aside {
+	float: left;
+	width: 220px;
+	
+	/* Подсветка */
+	background-color: #9cf;
+}
+
+.catalog {
+	float: right;
+	width: 700px;
+	margin-bottom: 45px;
+	padding: 0;
+	font-size: 0;
+
+	/* Подсветка */
+	background-color: #9cf;
+}
+
+.catalog ul {
+	margin: 0;
+	padding: 0;
+}
+
+.catalog li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	font-size: 14px;
+
+	/* Подсветка */
+	background-color: #cfc;
+}
+
+.catalog li:nth-child(3n) {
+	margin-right: 0;
+}
+
+.catalog-pages {
+	clear: both;
+	margin-left: 240px;
+	font-size: 0;
+	
+	/* Подсветка */
+	background-color: #9cf; 
+}
+
+.catalog-pages ol {
+	margin: 0;
+	padding: 0;
+}
+
+.catalog-pages li {
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	margin-right: 10px;
+	font-size: 14px;
+
+	/* Подсветка */
+	background-color: #cfc;
+}
+
+.main-footer {
+	margin-top: 50px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+
+	/* Подсветка */
+	background-color: #99f;
+}
+
+.contacts {
+	float: left;
+	width: 320px;
+	margin-right: 80px; 
+
+	/* Подсветка */
+	background-color: #9cf;
+}
+
+.socials {
+	float: left;
+	width: 220px;
+
+	/* Подсветка */
+	background-color: #9cf;
+}
+
+.copyright {
+	float: right;
+	width: 140px;
+
+	/* Подсветка */
+	background-color: #9cf;
+}
+
+/* barbershop-item */
+
+.images {
+	float: left;
+	width: 460px;
+	font-size: 0;
+
+	/* Подсветка */
+	background-color: #9cf;
+}
+
+.images ul {
+	margin: 0;
+	padding: 0;
+}
+
+.images li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.images li:last-child {
+	margin-right: 0;
+}
+
+.desc {
+	float: right;
+	width: 390px;
+
+	/* Подсветка */
+	background-color: #9cf;
 }
