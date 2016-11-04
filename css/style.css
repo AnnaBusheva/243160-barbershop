@@ -43,17 +43,28 @@ h2 {
 .main-navigation {
 	float: left;
 	width: 760px;
-	padding-left: 20px;
 	font-size: 0;
 	
 	/* Подсветка */
 	background-color: #9cf;
 }
 
+.main-navigation > a {
+	float: left;
+	width: 111px;
+	margin-left: 20px;
+	margin-right: 40px;
+}
+
+.main-navigation ul {
+	margin: 0;
+	padding: 0;
+}
+
 .main-navigation li {
 	display: inline-block;
 	margin-right: 40px;
-	/*vertical-align: top; пока не придумала, как лучше выровнять ссылки и логотип */
+	vertical-align: baseline;
 	font-size: 14px;
 	
 	/* Подсветка */
@@ -224,4 +235,9 @@ aside {
 
 	/* Подсветка */
 	background-color: #9cf;
+}
+
+/* меня обычно в гугле не банят, но как правильно выровнять span по горизонтали я не поняла */
+.number {
+	float: right;
 }
